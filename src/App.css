@@ -1,0 +1,75 @@
+.App
+{
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/originals/4c/c9/cb/4cc9cbde26f3335f9a9f8e4ae073138b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.navi-bar{
+  display: flex;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.ul-container{
+  display: flex;
+ flex-direction: row;
+  gap: 25px;
+  justify-content: space-between;
+  
+}
+.ul-container > li{
+  list-style-type: none;
+}
+.ul-container > li>a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.ul-container > li>a:hover{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+.home-page-container ,.signup-container ,.forgot-container
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.home-title
+{
+  color: aliceblue;
+}
+.form-container
+{
+  display: flex;
+  gap: 17px;
+  flex-direction: column;
+}
+.btnDiv
+{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.forgot{
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.reset-card-body
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
